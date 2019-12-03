@@ -1,4 +1,62 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  margin: 0 70px;
+  margin-bottom: 40px;
+  height: 80px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+header .left {
+  width: 60%;
+}
+
+header .right {
+  width: 40%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+header .right ul {
+  font-size: 15px;
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .right ul li {
+  cursor: pointer;
+}
+
+header .right ul li .fa-sort-down {
+  margin-left: 5px;
+}
+
+header .right ul .gog {
+  color: #30488f;
+  padding: 10px;
+  border: 1px solid #30488f;
+  border-radius: 0.5em;
+}
+
+header .right ul .gog:hover {
+  background-color: #30488f;
+  color: #ffffff;
 }
 

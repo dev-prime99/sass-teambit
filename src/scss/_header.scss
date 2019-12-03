@@ -1,0 +1,45 @@
+
+header{
+  margin: 0 70px;
+  margin-bottom: 40px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(#000000, 0.3);
+
+  .left{
+    width: 60%;
+  }
+
+  .right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    ul{
+      font-size: 15px;
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li{
+        cursor: pointer;
+        .fa-sort-down{
+          margin-left: 5px;
+        }
+      }
+      .gog{
+        color: $color-blue;
+        padding: 10px;
+        border: 1px solid $color-blue;
+        border-radius: 0.5em;
+
+        &:hover{
+          background-color: $color-blue;
+          color: $color-white;
+        }
+      }
+    }
+  }
+
+}
