@@ -48,6 +48,10 @@ header .right ul li .fa-sort-down {
   margin-left: 5px;
 }
 
+header .right ul li:hover {
+  color: #30488f;
+}
+
 header .right ul .gog {
   color: #30488f;
   padding: 10px;
@@ -58,5 +62,132 @@ header .right ul .gog {
 header .right ul .gog:hover {
   background-color: #30488f;
   color: #ffffff;
+}
+
+main #n1 {
+  padding: 40px 70px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: flex;
+}
+
+main #n1 .left {
+  width: 50%;
+}
+
+main #n1 .left h1 {
+  color: #58402c;
+  font-size: 46px;
+  line-height: 65px;
+  padding-right: 50px;
+}
+
+main #n1 .left p {
+  color: #58402c;
+  font-size: 22px;
+  margin: 30px 0;
+  padding-right: 50px;
+}
+
+main #n1 .left .sign {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+main #n1 .left .sign .btns {
+  color: #ffffff;
+  background-color: #30488f;
+  padding: 8px 15px;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+main #n1 .left .sign .btns:hover {
+  background-color: #233569;
+}
+
+main #n1 .left .sign .btns span {
+  font-size: 16px;
+  opacity: 1;
+}
+
+main #n1 .left .sign p {
+  padding: 0;
+  margin: 0 15px;
+  font-size: 16px;
+  color: #000000;
+}
+
+main #n1 .left span {
+  font-size: 14px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+main #n1 .left span i {
+  opacity: 0.7;
+}
+
+main #n1 .right {
+  width: 50%;
+}
+
+main #n1 .right img {
+  max-width: 570px;
+}
+
+main #n2 {
+  padding: 60px 70px;
+  background-color: #ffe7d2;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+main #n2 h2 {
+  text-align: center;
+  color: #58402c;
+  font-weight: normal;
+  width: 53%;
+  margin-bottom: 60px;
+}
+
+main #n2 .flex {
+  display: -webkit-box;
+  display: flex;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+main #n2 .flex div {
+  margin: 0 40px;
+}
+
+main #n2 .flex div img {
+  width: auto;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+main #n2 img {
+  width: 280px;
+}
+
+main #n2 hr {
+  width: 100%;
+  margin: 60px 0;
+}
+
+main #n2 h3 {
+  font-size: 25px;
+  color: #58402c;
+  margin: 80px 0 40px 0;
 }
 

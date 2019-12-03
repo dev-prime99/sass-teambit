@@ -27,6 +27,9 @@ header{
         .fa-sort-down{
           margin-left: 5px;
         }
+        &:hover{
+          color: $color-blue;
+        }
       }
       .gog{
         color: $color-blue;
